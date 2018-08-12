@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Barnsley Fern</title>
+        <link rel="stylesheet" href="stylesheets/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="stylesheets/master.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="container">
+                <h1>Animating the <a href="https://en.wikipedia.org/wiki/Barnsley_fern" target="_blank">Barnsley fern</a>
+                </h1>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <canvas id="canvas"></canvas>
+                    </div>
+                    <div class="col-lg-6" id="controls">
+                        <p>Currently animating
+                            <span id="current"></span>
+                        </p>
+                        <p>Scaling
+                            <span id="scaling"></span>
+                        </p>
+                        <p>Transformation matrix
+                            <span id="matrix"></span>
+                        </p>
+                        <p>Number of iterations
+                            <input id="iterations" type="number" min="100" max="5000" name="iterations" value="1000">
+                        </p>
+                        <p>Watch and ponder...
+                            <button id="pause">Pause</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="scripts/constants.js" charset="utf-8"></script>
+        <script src="scripts/draw.js" charset="utf-8"></script>
+        <script src="scripts/controls.js" charset="utf-8"></script>
+        <script src="scripts/index.js" charset="utf-8"></script>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Jua|Roboto");
+* {
+  box-sizing: border-box; }
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: #f7f1e3; }
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  color: #aaa69d;
+  font-family: 'Roboto', sans-serif; }
+  .wrapper .container {
+    margin: auto; }
+    .wrapper .container h1 {
+      font-size: 3rem;
+      font-family: 'Jua', sans-serif;
+      text-transform: uppercase;
+      text-align: center; }
+      .wrapper .container h1 a {
+        font-family: inherit;
+        font-size: inherit;
+        text-decoration: inherit;
+        color: #868174; }
+    .wrapper .container .row canvas {
+      flex: 0 0 auto;
+      display: block;
+      margin: 0 auto;
+      width: 500px;
+      max-width: 100%;
+      background: transparent; }
+    .wrapper .container .row #controls input {
+      width: 100px;
+      border-bottom: 0.15rem solid #aaa69d; }
+    .wrapper .container .row #controls p {
+      margin-top: 0;
+      text-align: center; }
+      .wrapper .container .row #controls p span,
+      .wrapper .container .row #controls p input,
+      .wrapper .container .row #controls p button {
+        border: none;
+        display: block;
+        margin: 0 auto;
+        font-family: 'Jua', sans-serif;
+        font-size: 1.5rem;
+        color: #868174;
+        background: transparent; }
+      .wrapper .container .row #controls p input,
+      .wrapper .container .row #controls p button {
+        padding: 0;
+        border-bottom: 0.1rem solid #aaa69d; }
+      .wrapper .container .row #controls p button {
+        cursor: pointer; }
+      .wrapper .container .row #controls p #matrix {
+        font-size: 0.8rem;
+        font-family: monospace;
+        white-space: pre; }
