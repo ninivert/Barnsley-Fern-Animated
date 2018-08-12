@@ -45,12 +45,14 @@ body {
       text-align: center; }
       .wrapper .container .row #controls p span,
       .wrapper .container .row #controls p input,
-      .wrapper .container .row #controls p button {
+      .wrapper .container .row #controls p button,
+      .wrapper .container .row #controls p a {
         border: none;
         display: block;
         margin: 0 auto;
         font-family: 'Jua', sans-serif;
         font-size: 1.5rem;
+        text-decoration: none;
         color: #868174;
         background: transparent; }
       .wrapper .container .row #controls p input,
